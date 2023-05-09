@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "custom-1";
+  src: url("./fonts/Inter.ttf") format('trueType');
+  }
+
+@font-face{
+    font-family: "Custom-2";
+    src: url("./fonts/MontserratAlternates-Regular.otf");
+    }
