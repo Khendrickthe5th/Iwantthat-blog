@@ -1,5 +1,5 @@
 import {useRef} from "react";
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import './index.css';
 import Hamburger from './icons/Hamburger-Menu.svg';
 
@@ -11,13 +11,26 @@ function Header() {
         showSideMenu();
     }
     const sideMenu = useRef();
+ 
+window.onscroll = ()=>{
+    let x = window.scrollX;
+    let y = window.scrollY;
+
+    if(sideMenu.current.classList.contains("hidden")){
+    window.scroll(x, y)
+    console.log("yeah it contains hidden")
+    }
+else{
+    window.scroll("", "")
+}
+    }
 
     const showSideMenu =()=>{
         sideMenu.current.classList.toggle("hidden")
-    }
+        }
 
     return(
-        <div className="w-[100%] h-[75px] flex font-custom1">
+        <div className="w-[100%] h-[75px] flex font-custom1 overflow-hidden">
             <div className="w-[50%] pl-[10%] flex items-center">
                 <span className="w-[100%]">I Want That</span>
             </div>
