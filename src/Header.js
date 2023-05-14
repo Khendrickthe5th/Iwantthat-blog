@@ -1,5 +1,5 @@
 import {useRef} from "react";
-// import ReactDOM from "react-dom/client";
+import {NavLink} from 'react-router-dom';
 import './index.css';
 import Hamburger from './icons/Hamburger-Menu.svg';
 import Categories from './icons/Categories.svg';
@@ -35,7 +35,7 @@ else{
     return(
         <div className="w-[100%] h-[75px] flex font-custom1 overflow-hidden">
             <div className="w-[50%] pl-[10%] flex items-center">
-                <span className="w-[100%]">I Want That</span>
+                <NavLink to="/" className="w-[100%]">I Want That</NavLink>
             </div>
 
         <div className="w-[50%] h-full pr-8 md:hidden flex justify-end items-center"> 
@@ -45,27 +45,20 @@ else{
         <div ref={sideMenu} className="w-full h-[100%] bg-white absolute hidden top-[75px] m-0 p-0 z-[1200]">
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={Categories} alt="Categories icon"/> </div>
-                <a href="#"><span className="w-fit mx-3 text-xl font-semibold">Categories</span></a>
+                <NavLink to="/categoriespage"><span className="w-fit mx-3 text-xl font-semibold">Categories</span></NavLink>
             </div>
 
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={About} alt="Categories icon"/> </div>
-                <a href="#"><span className="w-fit mx-3 text-xl font-semibold">About</span></a>
+                <NavLink to="/about"><span className="w-fit mx-3 text-xl font-semibold">About</span></NavLink>
             </div>
-
-            <div className="w-[100%] h-[70px] flex justify-start items-center ">
-                <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={FAQ} alt="Categories icon"/> </div>
-                <a href="#"><span className="w-fit mx-3 text-xl font-semibold">FAQs</span></a>
-            </div>
-
-            <div className="w-[100%] h-fit mt-[250px] text-xs"><p className="w-fit h-fit m-auto">I Want That 2023 C</p></div>  
+             
         </div>
 
 
         <div className="w-[50%] justify-end items-center pr-[10%] hidden md:flex">
-            <span className="w-fit mx-3">Categories</span>
-            <span className="w-fit mx-3">About</span>
-            <span className="w-fit mx-3">FAQ</span>
+            <NavLink to="/categoriespage" className="w-fit mx-3">Categories</NavLink>
+            <NavLink to="/about" className="w-fit mx-3">About</NavLink>
             </div>
         </div>
 
