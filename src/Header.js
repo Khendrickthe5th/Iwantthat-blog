@@ -4,8 +4,6 @@ import './index.css';
 import Hamburger from './icons/Hamburger-Menu.svg';
 import Categories from './icons/Categories.svg';
 import About from './icons/About.svg';
-import FAQ from './icons/FAQ.svg';
-
 
 function Header() {
 
@@ -21,7 +19,6 @@ window.onscroll = ()=>{
 
     if(sideMenu.current.classList.contains("hidden")){
     window.scroll(x, y)
-    console.log("yeah it contains hidden")
     }
 else{
     window.scroll("", "")
@@ -32,8 +29,13 @@ else{
         sideMenu.current.classList.toggle("hidden")
         }
 
+        
+        const hideMobileSideMenu = ()=>{
+            sideMenu.current.classList.add("hidden")
+        }
+
     return(
-        <div className="w-[100%] h-[75px] flex font-custom1 overflow-hidden">
+        <div className="w-[100%] h-[75px] flex font-custom1 overflow-hidden border-b border-solid border-stone-300">
             <div className="w-[50%] pl-[10%] flex items-center">
                 <NavLink to="/" className="w-[100%]">I Want That</NavLink>
             </div>
@@ -45,12 +47,12 @@ else{
         <div ref={sideMenu} className="w-full h-[100%] bg-white absolute hidden top-[75px] m-0 p-0 z-[1200]">
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={Categories} alt="Categories icon"/> </div>
-                <NavLink to="/categoriespage"><span className="w-fit mx-3 text-xl font-semibold">Categories</span></NavLink>
+                <NavLink to="/categoriespage" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Categories</span></NavLink>
             </div>
 
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={About} alt="Categories icon"/> </div>
-                <NavLink to="/about"><span className="w-fit mx-3 text-xl font-semibold">About</span></NavLink>
+                <NavLink to="/about" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">About</span></NavLink>
             </div>
              
         </div>
