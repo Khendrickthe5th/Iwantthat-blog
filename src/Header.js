@@ -37,7 +37,7 @@ else{
     return(
         <div className="w-[100%] h-[75px] flex font-custom1 overflow-hidden border-b border-solid border-stone-300">
             <div className="w-[50%] pl-[10%] flex items-center">
-                <NavLink to="/" className="w-[100%]">I Want That</NavLink>
+                <NavLink to="/" onClick={hideMobileSideMenu} className="w-[100%]">I Want That</NavLink>
             </div>
 
         <div className="w-[50%] h-full pr-8 md:hidden flex justify-end items-center"> 
