@@ -7,10 +7,6 @@ import About from './icons/About.svg';
 
 function Header() {
 
-    const selected = (e)=>{
-        e.currentTarget.classList.toggle("bg-stone-300");
-        showSideMenu();
-    }
     const sideMenu = useRef();
  
 window.onscroll = ()=>{
@@ -37,11 +33,11 @@ else{
     return(
         <div className="w-[100%] h-[75px] flex font-custom1 overflow-hidden border-b border-solid border-stone-300">
             <div className="w-[50%] pl-[10%] flex items-center">
-                <NavLink to="/" onClick={hideMobileSideMenu} className="w-[100%]">I Want That</NavLink>
+                <NavLink to="/" onClick={hideMobileSideMenu} className="w-[100%] font-custom1 font-semibold">I Want That</NavLink>
             </div>
 
         <div className="w-[50%] h-full pr-8 md:hidden flex justify-end items-center"> 
-        <div onClick={selected} className=" w-[45px] h-[45px] rounded-full flex"><img className="w-[20px] m-auto" src={Hamburger} alt="Hamburger Svg" /></div>
+        <div onClick={showSideMenu} tabIndex="4" className=" w-[45px] h-[45px] rounded-full focus:bg-stone-300 flex"><img className="w-[20px] m-auto" src={Hamburger} alt="Hamburger Svg" /></div>
         </div>
 
         <div ref={sideMenu} className="w-full h-[100%] bg-white absolute hidden top-[75px] m-0 p-0 z-[1200]">

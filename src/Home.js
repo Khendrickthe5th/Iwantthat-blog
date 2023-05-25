@@ -1,5 +1,6 @@
 import HeroSection from './HeroSection';
 import ProductCard from './ProductCard';
+import ProductCardII from './ProductCardII';
 import Tags from './Tags';
 import BlogPost from './BlogPost';
 
@@ -9,7 +10,7 @@ function Home(){
   <HeroSection />
   <ProductCard />
   <Tags />
-  <ProductCard />
+  <ProductCardII />
   <BlogPost />
   </>
     )
