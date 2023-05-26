@@ -29,7 +29,7 @@ function BohemianMaximalistEclecticEtc(){
 
             <div className="w-[100%] h-[fit] p-[15px] my-[20px]">
                 <div className="w-full h-fit flex justify-center items-center mb-[10px]">
-                    <span  className="w-fit h-fit text-center sm:text-xl font-custom1 font-semibold lg:text-2xl"> Modern, Minimalist, Scandinavian Etc</span>
+                    <span  className="w-fit h-fit text-center sm:text-xl font-custom1 font-semibold lg:text-2xl">Bohemian, Maximalist, Ecletic Etc</span>
                 </div>
                 <p className="w-[100%] h-fit m-auto text-center text-">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio facilis maxime iste possimus perspiciatis modi eaque ab consequatur minus magni.</p>
             </div>

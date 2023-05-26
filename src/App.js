@@ -1,4 +1,4 @@
-import {createBrowserRouter, createRoutesFromElements, RouterProvider, Route, Link, Outlet } from 'react-router-dom';
+import {createBrowserRouter, createRoutesFromElements, RouterProvider, Route} from 'react-router-dom';
 import RootLayout from './RootLayout';
 import Home from './Home';
 import About from './About';
@@ -13,6 +13,8 @@ import BohemianMaximalistEclecticEtc from './ProductCategories/BohemianMaximalis
 import GamingRoomWorkSpacesEtc from './ProductCategories/GamingRoomWorkSpacesEtc';
 import CharacterThemedEtc from './ProductCategories/CharacterThemedEtc';
 import LEDNeonsColorsEtc from './ProductCategories/LEDNeonsColorsEtc';
+import Release001 from './blog/Release001';
+import BlogMain from './BlogMain';
 
 function App() {
   const router = createBrowserRouter(
@@ -31,6 +33,8 @@ function App() {
         <Route path="/Categories/GamingRoomWorkSpacesEtc" element={<GamingRoomWorkSpacesEtc />}/>
         <Route path="/Categories/CharacterThemedEtc" element={<CharacterThemedEtc />}/>
         <Route path="/Categories/LEDNeonsColorsEtc" element={<LEDNeonsColorsEtc />}/>
+        <Route path="/blog/Release001" element={<Release001 />}/>
+        <Route path="/blog" element={<BlogMain />}/>
         </Route>
         )
 )

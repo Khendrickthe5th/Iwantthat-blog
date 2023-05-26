@@ -4,6 +4,7 @@ import './index.css';
 import Hamburger from './icons/Hamburger-Menu.svg';
 import Categories from './icons/Categories.svg';
 import About from './icons/About.svg';
+import BlogIcon from './icons/BlogIcon.svg';
 
 function Header() {
 
@@ -44,6 +45,11 @@ else{
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={Categories} alt="Categories icon"/> </div>
                 <NavLink to="/categoriespage" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Categories</span></NavLink>
+            </div>
+
+            <div className="w-[100%] h-[70px] flex justify-start items-center ">
+                <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={BlogIcon} alt="Categories icon"/> </div>
+                <NavLink to="/blog" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Blog</span></NavLink>
             </div>
 
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
