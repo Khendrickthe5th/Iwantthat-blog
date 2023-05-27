@@ -34,7 +34,7 @@ else{
     return(
         <div className="w-[100%] h-[75px] flex font-custom1 overflow-hidden border-b border-solid border-stone-300">
             <div className="w-[50%] pl-[10%] flex items-center">
-                <NavLink to="/" onClick={hideMobileSideMenu} className="w-[100%] font-custom1 font-semibold">I Want That</NavLink>
+                <NavLink to="/Iwantthat-blog" onClick={hideMobileSideMenu} className="w-[100%] font-custom1 font-semibold">I Want That</NavLink>
             </div>
 
         <div className="w-[50%] h-full pr-8 md:hidden flex justify-end items-center"> 
@@ -44,12 +44,12 @@ else{
         <div ref={sideMenu} className="w-full h-[100%] bg-white absolute hidden top-[75px] m-0 p-0 z-[1200]">
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={Categories} alt="Categories icon"/> </div>
-                <NavLink to="/categoriespage" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Categories</span></NavLink>
+                <NavLink to="/Iwantthat-blog/categoriespage" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Categories</span></NavLink>
             </div>
 
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={BlogIcon} alt="Categories icon"/> </div>
-                <NavLink to="/blog" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Blog</span></NavLink>
+                <NavLink to="/Iwantthat-blog/blog" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Blog</span></NavLink>
             </div>
 
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
@@ -61,8 +61,8 @@ else{
 
 
         <div className="w-[50%] justify-end items-center pr-[10%] hidden md:flex">
-            <NavLink to="/categoriespage" className="w-fit mx-3">Categories</NavLink>
-            <NavLink to="/about" className="w-fit mx-3">About</NavLink>
+            <NavLink to="/Iwantthat-blog/categoriespage" className="w-fit mx-3">Categories</NavLink>
+            <NavLink to="/Iwantthat-blog/about" className="w-fit mx-3">About</NavLink>
             </div>
         </div>
 
