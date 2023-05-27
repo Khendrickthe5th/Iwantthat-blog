@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Iwantthat-blog/static/css/main.e6215fa0.css",
-    "main.js": "/Iwantthat-blog/static/js/main.db51ca9e.js",
+    "main.css": "/Iwantthat-blog/static/css/main.5f2e325f.css",
+    "main.js": "/Iwantthat-blog/static/js/main.fba37caf.js",
     "static/media/Inter.ttf": "/Iwantthat-blog/static/media/Inter.aadb65ac45347ff46699.ttf",
     "static/media/MontserratAlternates-Regular.otf": "/Iwantthat-blog/static/media/MontserratAlternates-Regular.a5a4219b37b4e2270a3c.otf",
     "static/media/Categories.svg": "/Iwantthat-blog/static/media/Categories.af6b038ede692c650404ea7d363cc35e.svg",
@@ -10,11 +10,11 @@
     "static/media/SadFace.svg": "/Iwantthat-blog/static/media/SadFace.d484ee9430e5e361efd2f81d84935699.svg",
     "static/media/Hamburger-Menu.svg": "/Iwantthat-blog/static/media/Hamburger-Menu.b110d045eec97881a32c111f74b20d15.svg",
     "static/media/About.svg": "/Iwantthat-blog/static/media/About.5df3374d0f145ceb6f10ee1ddb78e41e.svg",
-    "main.e6215fa0.css.map": "/Iwantthat-blog/static/css/main.e6215fa0.css.map",
-    "main.db51ca9e.js.map": "/Iwantthat-blog/static/js/main.db51ca9e.js.map"
+    "main.5f2e325f.css.map": "/Iwantthat-blog/static/css/main.5f2e325f.css.map",
+    "main.fba37caf.js.map": "/Iwantthat-blog/static/js/main.fba37caf.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6215fa0.css",
-    "static/js/main.db51ca9e.js"
+    "static/css/main.5f2e325f.css",
+    "static/js/main.fba37caf.js"
   ]
 }
