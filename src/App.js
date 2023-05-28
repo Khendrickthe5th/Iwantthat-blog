@@ -20,7 +20,7 @@ import Disclaimer from './Disclaimer';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
+      <Route basename="Iwantthat-blog" path="/" element={<RootLayout />}>
         <Route path="/Iwantthat-blog/" element={<Home />}/>
         <Route path="/Iwantthat-blog/about" element={<About />}/>
         <Route path="*" element={<ErrorPage />}/>
