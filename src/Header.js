@@ -54,15 +54,21 @@ else{
 
             <div className="w-[100%] h-[70px] flex justify-start items-center ">
                 <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={About} alt="Categories icon"/> </div>
-                <NavLink to="/about" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">About</span></NavLink>
+                <NavLink to="/Iwantthat-blog/about" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">About</span></NavLink>
             </div>
              
+            <div className="w-[100%] h-[70px] flex justify-start items-center ">
+                <div className="m-[20px]"><img className="w-[30px] h-[30px]" width="100%" height="100%" color="red" src={About} alt="Categories icon"/> </div>
+                <NavLink to="/Iwantthat-blog/disclaimer" onClick={hideMobileSideMenu}><span className="w-fit mx-3 text-xl font-semibold">Disclaimer</span></NavLink>
+            </div>
         </div>
 
 
         <div className="w-[50%] justify-end items-center pr-[10%] hidden md:flex">
             <NavLink to="/Iwantthat-blog/categoriespage" className="w-fit mx-3">Categories</NavLink>
+            <NavLink to="/Iwantthat-blog/blog" className="w-fit mx-3">Blog</NavLink>
             <NavLink to="/Iwantthat-blog/about" className="w-fit mx-3">About</NavLink>
+            <NavLink to="/Iwantthat-blog/disclaimer" className="w-fit mx-3">Disclaimer</NavLink>
             </div>
         </div>
 

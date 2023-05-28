@@ -67,6 +67,7 @@ function CategoriesPage(){
             </NavLink>
         </div>
 
+
 </div>
     )
 }
