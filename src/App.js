@@ -14,6 +14,7 @@ import GamingRoomWorkSpacesEtc from './ProductCategories/GamingRoomWorkSpacesEtc
 import CharacterThemedEtc from './ProductCategories/CharacterThemedEtc';
 import LEDNeonsColorsEtc from './ProductCategories/LEDNeonsColorsEtc';
 import Release001 from './blog/Release001';
+import Release002 from './blog/Release002';
 import BlogMain from './BlogMain';
 import Disclaimer from './Disclaimer';
 
@@ -35,6 +36,7 @@ function App() {
         <Route path="/Iwantthat-blog/Categories/CharacterThemedEtc" element={<CharacterThemedEtc />}/>
         <Route path="/Iwantthat-blog/Categories/LEDNeonsColorsEtc" element={<LEDNeonsColorsEtc />}/>
         <Route path="/Iwantthat-blog/blog/Release001" element={<Release001 />}/>
+        <Route path="/Iwantthat-blog/blog/Release002" element={<Release002 />}/>
         <Route path="/Iwantthat-blog/blog" element={<BlogMain />}/>
         <Route path="/Iwantthat-blog/disclaimer" element={<Disclaimer />}/>
         </Route>

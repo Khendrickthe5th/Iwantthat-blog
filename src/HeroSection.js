@@ -5,17 +5,17 @@ return(
 
         <div className="w-[40%] h-fit border-2 border-solid border-red-400 rounded-3xl relative left-[1%]">
             <div className="w-[100%] h-[100%] border-2 border-solid border-red-400 rounded-3xl absolute right-[15px] bottom-[10px] z-[-30]"></div>
-        <img className="object-fill w-full h-full rounded-3xl z-20" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="image host"/>
+        <img className="object-fill w-full h-full rounded-3xl z-20" src="https://thumbs2.imgbox.com/11/5a/Gvm47vyv_t.jpg" alt="image host"/>
         </div>
 
         <div className="w-[40%] h-fit border-2 border-solid border-red-400 rounded-3xl relative left-[32%] bottom-[30px]">
             <div className="w-[100%] h-[100%] border-2 border-solid border-red-400 rounded-3xl absolute right-[15px] bottom-[10px] z-[-30]"></div>
-        <img className="object-fill w-full h-full rounded-3xl z-20" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="image host"/>
+        <img className="object-fill w-full h-full rounded-3xl z-20" src="https://thumbs2.imgbox.com/1c/45/JWi1JNEi_t.jpg" alt="image host"/>
         </div>
 
         <div className="w-[40%] h-fit border-2 border-solid border-red-400 rounded-3xl relative left-[61.5%] bottom-[60px]">
             <div className="w-[100%] h-[100%] border-2 border-solid border-red-400 rounded-3xl absolute right-[15px] bottom-[10px] z-[-30]"></div>
-        <img className="object-fill w-full h-full rounded-3xl z-20" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="image host"/>
+        <img className="object-fill w-full h-full rounded-3xl z-20" src="https://thumbs2.imgbox.com/83/5e/8nlDtz7c_t.jpg" alt="image host"/>
         </div>
 
     <div className="w-[100%] h-fit flex justify-center">
