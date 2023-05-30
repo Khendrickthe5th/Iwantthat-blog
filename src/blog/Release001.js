@@ -6,7 +6,7 @@ function Release001 (){
                 <div className="max-w-[700px]">
                 <div classsName="w-full h-fit">
                 <div className="max-w-[400px] h-fit bg-red-100 rounded m-auto"><img className="object-fill w-[100%]"   src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Pastel vases" /></div>
-                <h1 className="text-sm font-semibold sm:text-lg my-3 font-custom1 w-fit h-fit m-auto text-center">Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+                <h1 className="text-sm font-semibold sm:text-lg my-3 font-custom1 w-fit h-fit m-auto text-center">Ways To Apply Colour Psychology To Your Interior Design</h1>
                 <div className="w-fit h-fit mx-auto my-3 font-custom1 text-xs">
                 <span className="w-fit h-fit mr-5">Published on 22-05-2023</span>
                 <span>5 Mins Read</span>
@@ -21,9 +21,9 @@ function Release001 (){
                     Whether you’re looking to add the odd pop of colour or decorate your entire room, discover the psychological effect of colour in interior design with our help:</p><br/>
                 </div>
 
-                <div className="max-w-[700px] min-h-[100px] rounded m-auto flex justify-center">
-                    <div className="w-full h-full"><img className="object-fill w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/0e/b8/98OcszwP_t.jpg" alt="Pastel vases"/></div>
-                    <div className="w-full h-full"><img className="object-fill w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/57/d7/kZSXUBIW_t.jpg" alt="Pastel vases"/></div>
+                <div className="max-w-[700px] h-[220px] rounded m-auto flex justify-center">
+                    <div className="w-full h-auto"><img className="object-contain w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/0e/b8/98OcszwP_t.jpg" alt="Pastel vases"/></div>
+                    <div className="w-full h-auto"><img className="object-fill w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/57/d7/kZSXUBIW_t.jpg" alt="Pastel vases"/></div>
                     </div>
                 <div className="w-fit h-fit m-auto "><br/>
                     <p>RED –The most intense colour, red raises a room’s energy level and pumps the adrenaline.  Ambition, action and willpower are all qualities attributed to this colour, which is why red is a great option for home offices and creative spaces.  In the living or dining room, red draws people together and stimulates conversation. In an entrance hall, it creates a strong first impression.</p><br/>
