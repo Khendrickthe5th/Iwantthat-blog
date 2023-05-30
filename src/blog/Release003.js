@@ -10,7 +10,7 @@ function Release003 (){
                     <div className="w-full h-full"><img className="object-cover w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/3e/36/2MuL4Ca4_t.jpg" alt="Pastel vases"/></div>
                     </div>
                     
-                <h1 className="text-sm font-semibold sm:text-lg my-3 font-custom1 w-fit h-fit m-auto text-center">Top 5 Best Hammock To Get In 2023</h1>
+                <h1 className="text-sm font-semibold sm:text-lg my-3 font-custom1 w-fit h-fit m-auto text-center">Top 5 Best Hammocks To Get In 2023</h1>
                 <div className="w-fit h-fit mx-auto my-3 font-custom1 text-xs">
                 <span className="w-fit h-fit mr-5">Published on 19-05-2023</span>
                 <span>4 Mins Read</span>
