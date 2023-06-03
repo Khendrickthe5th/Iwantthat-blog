@@ -19,7 +19,7 @@ return(
         </div>
 
     <div className="w-[100%] h-fit flex justify-center">
-    <h1 className=" w-fit font-custom2 text-[3rem] font-bold text-center">Scouted Room Decor Items Just For You!</h1>
+    <h1 className=" w-fit font-custom2 text-[3rem] font-bold text-center">Room decor items according to your style!</h1>
     </div>
     </div>
 );
