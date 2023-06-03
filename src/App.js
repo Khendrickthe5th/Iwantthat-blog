@@ -12,7 +12,6 @@ import LuxuryHighEndExpensiveEtc from './ProductCategories/LuxuryHighEndExpensiv
 import BohemianMaximalistEclecticEtc from './ProductCategories/BohemianMaximalistEclecticEtc';
 import GamingRoomWorkSpacesEtc from './ProductCategories/GamingRoomWorkSpacesEtc';
 import CharacterThemedEtc from './ProductCategories/CharacterThemedEtc';
-import LEDNeonsColorsEtc from './ProductCategories/LEDNeonsColorsEtc';
 import Release001 from './blog/Release001';
 import Release002 from './blog/Release002';
 import Release003 from './blog/Release003';
@@ -35,7 +34,6 @@ function App() {
         <Route path="/Iwantthat-blog/Categories/BohemianMaximalistEclecticEtc" element={<BohemianMaximalistEclecticEtc />}/>
         <Route path="/Iwantthat-blog/Categories/GamingRoomWorkSpacesEtc" element={<GamingRoomWorkSpacesEtc />}/>
         <Route path="/Iwantthat-blog/Categories/CharacterThemedEtc" element={<CharacterThemedEtc />}/>
-        <Route path="/Iwantthat-blog/Categories/LEDNeonsColorsEtc" element={<LEDNeonsColorsEtc />}/>
         <Route path="/Iwantthat-blog/blog/Release001" element={<Release001 />}/>
         <Route path="/Iwantthat-blog/blog/Release002" element={<Release002 />}/>
         <Route path="/Iwantthat-blog/blog/Release003" element={<Release003 />}/>

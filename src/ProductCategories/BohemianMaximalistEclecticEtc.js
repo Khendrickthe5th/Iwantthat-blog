@@ -43,6 +43,13 @@ function BohemianMaximalistEclecticEtc(){
             image_link: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09V4YW9VS&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=iwantthatblog-20&language=en_US",
             amazon_link: "https://www.amazon.com/Sculptures-Sandstone-Ornaments-Housewarming-Decorations/dp/B09V4YW9VS?keywords=boho+figurines&qid=1685741400&sr=8-17&linkCode=li3&tag=iwantthatblog-20&linkId=b829f74c2a266386f8e861b5af83b128&language=en_US&ref_=as_li_ss_il"
         },
+        {
+            name: "Kouboo La Jolla Round Handwoven Rattan Stool/Side Table, 18 by 18",
+            tag: "",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, praesentium.",
+            image_link: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01D60E1D2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=iwantthatblog-20&language=en_US",
+            amazon_link: "https://www.amazon.com/Kouboo-Jolla-Handwoven-Rattan-Honey-Brown/dp/B01D60E1D2?crid=1HKONHDWS9FCK&keywords=weaved+boho+table&qid=1685785135&sprefix=weaved+boho+table+%2Caps%2C757&sr=8-32&linkCode=li3&tag=iwantthatblog-20&linkId=aa885ce9a2812abccdeea256c520c307&language=en_US&ref_=as_li_ss_il"
+        },
     ]
 
     return(

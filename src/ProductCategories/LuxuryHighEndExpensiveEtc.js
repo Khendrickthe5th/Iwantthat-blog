@@ -22,6 +22,27 @@ function LuxuryHighEndExpensiveEtc(){
             image_link: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BBZ3GM9H&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=iwantthatblog-20&language=en_US",
             product_link: "https://www.amazon.com/Bookshelf-Creative-Standing-Bookcase-Organizer/dp/B0BBZ3GM9H?crid=251R867N4DVYQ&keywords=scandinavian+furniture&qid=1685742503&sprefix=scandinavian+%2Caps%2C908&sr=8-28&linkCode=li3&tag=iwantthatblog-20&linkId=373b78a04f8cba69e7d4a8c03ff9ade5&language=en_US&ref_=as_li_ss_il"
         },
+        {
+            name: "Design Toscano The Greek Muses Glass Topped Side Table, 20 Inch...",
+            tag: "",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, praesentium.",
+            image_link: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001O738JI&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=iwantthatblog-20&language=en_US",
+            product_link: "https://www.amazon.com/dp/B001O738JI?&linkCode=li3&tag=iwantthatblog-20&linkId=31a2f87296c4e79c0cb889e5677a0503&language=en_US&ref_=as_li_ss_il"
+        },
+        {
+            name: "6Side Table，Coffee Tables Modern Living Room Blue Ocean Resin...",
+            tag: "",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, praesentium.",
+            image_link: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B5D6ZQ14&Format=_SL250_&ID=AsinImage&MarketPlace=CA&ServiceVersion=20070822&WS=1&tag=&language=en_CA",
+            product_link: "https://www.amazon.ca/dp/B0B5D6ZQ14?&linkCode=li3&tag=&linkId=684a85aa8655bab6f722413660620166&language=en_CA&ref_=as_li_ss_il"
+        },
+        {
+            name: "TUZECH Epoxy Table Fully Customized Thick Resin River Table...",
+            tag: "",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, praesentium.",
+            image_link: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08QW41TDJ&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=iwantthatblog-20&language=en_US",
+            product_link: "https://www.amazon.com/dp/B08QW41TDJ?th=1&linkCode=li3&tag=iwantthatblog-20&linkId=0bbeb19b959809b82750621bda2036dd&language=en_US&ref_=as_li_ss_il"
+        },
     ]
 
     

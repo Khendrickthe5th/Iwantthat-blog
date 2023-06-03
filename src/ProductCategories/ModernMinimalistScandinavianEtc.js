@@ -40,6 +40,14 @@ function ModernMinimalistScandinavianEtc(){
             amazon_link: "https://www.amazon.com/dp/B09JC4HN8P?_encoding=UTF8&psc=1&linkCode=li3&tag=iwantthatblog-20&linkId=dca21d82c50a00d9ddf71c1c0e052acd&language=en_US&ref_=as_li_ss_il",
             aliexpress_link: ""
         },
+        {
+            name: "Christopher Knight Home Isaiah Indoor/Outdoor Wicker Tear Drop...",
+            tag: "",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, praesentium.",
+            image_link: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B086PCBNNF&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=iwantthatblog-20&language=en_US",
+            amazon_link: "https://www.amazon.com/Christopher-Knight-Home-312592-Multi-Brown/dp/B086PCBNNF?crid=2S73FBQ2EF6H0&keywords=hammock+indoor+wooden&qid=1685785937&sprefix=hammock+indoor+wooden%2Caps%2C483&sr=8-72&linkCode=li3&tag=iwantthatblog-20&linkId=60c33da0740abb9c9309f87d664e3acd&language=en_US&ref_=as_li_ss_il",
+            aliexpress_link: ""
+        },
     ]
 
     

@@ -12,61 +12,53 @@ function CategoriesPage(){
 
 
         <div className="w-[145px] m-[3px] mb-[15px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
+        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/bb/6d/D0datBxk_t.jpg" alt="Sample shot"/>
         <NavLink to="/Iwantthat-blog/Categories/KawaiiDanishPastelEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
             <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Kawaii, Danish Pastel, Soft Boy/Girl Etc</h3>
             </NavLink>
         </div>
 
         <div className="w-[145px] m-[3px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
+        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/b8/a0/qj7enxca_t.jpg" alt="Sample shot"/>
         <NavLink to="/Iwantthat-blog/Categories/ModernMinimalistScandinavianEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
             <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Modern, Minimalist, Scandinavian Etc</h3>
             </NavLink>
         </div>
 
         <div className="w-[145px] m-[3px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
+        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/7a/ee/FTmVtrxh_t.jpg" alt="Sample shot"/>
         <NavLink to="/Iwantthat-blog/Categories/CottagecoreGothBiophilicGrungeEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
             <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Cottagecore, Goth, Biophilic, Grunge Etc</h3>
             </NavLink>
         </div>
 
         <div className="w-[145px] m-[3px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
+        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/df/b3/Z428uvLY_t.jpg" alt="Sample shot"/>
         <NavLink to="/Iwantthat-blog/Categories/LuxuryHighEndExpensiveEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
             <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Luxury, High-End, Expensive Etc</h3>
             </NavLink>
         </div>
 
         <div className="w-[145px] m-[3px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
+        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/09/6b/54Rbvl2a_t.jpg" alt="Sample shot"/>
         <NavLink to="/Iwantthat-blog/Categories/BohemianMaximalistEclecticEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
             <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Bohemian, Maximalist, Ecletic Etc</h3>
             </NavLink>
         </div>
 
         <div className="w-[145px] m-[3px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
+        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/3f/7c/8l5s245y_t.jpg" alt="Sample shot"/>
         <NavLink to="/Iwantthat-blog/Categories/CharacterThemedEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
-            <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Character-Themed Etc</h3>
+            <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Character-Themed, Hypebeast, Brand Etc</h3>
             </NavLink>
         </div>
 
         <div className="w-[145px] m-[3px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
+        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/a6/fe/eQBVShaY_t.jpg" alt="Sample shot"/>
         <NavLink to="/Iwantthat-blog/Categories/GamingRoomWorkSpacesEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
             <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">Gaming Room,WorkSpaces Etc</h3>
             </NavLink>
         </div>
-
-        <div className="w-[145px] m-[3px] md:w-[250px] lg:w-[330px] xl:w-[400px] h-fit rounded-t border border-solid border-red-200 p-[0.7rem]">
-        <img className="w-[100%] h-[100%]" src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
-        <NavLink to="/Iwantthat-blog/Categories/LEDNeonsColorsEtc" className=" w-[90%] min-h-[80px] lg:h-[100px] border-t border-solid border-stone-300 mt-[10px] flex justify-center items-center m-auto">
-            <h3 className="text-xs lg:text-lg text-center font-semibold mt-[5px]">LED,Neons,Colors Etc</h3>
-            </NavLink>
-        </div>
-
 
 </div>
     )

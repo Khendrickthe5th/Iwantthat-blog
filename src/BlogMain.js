@@ -4,7 +4,7 @@ function BlogMain(){
     return(
         <div className="w-[100%] h-fit flex justify-center my-[30px]">
             <div className="w-[90%] h-fit">
-
+                
                 <div className="w-[100%] h-fit flex gap-[5px] items-center border-t border-solid border-stone-300">
                     <div className="w-[100px] h-[100px] shrink-0">
                         <img className="w-[100%] h-[100%] " src="https://thumbs2.imgbox.com/ca/ae/1mJfB1cz_t.png" alt="Sample shot"/>
