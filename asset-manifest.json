@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Iwantthat-blog/static/css/main.85873945.css",
-    "main.js": "/Iwantthat-blog/static/js/main.2a8405cb.js",
+    "main.js": "/Iwantthat-blog/static/js/main.ee1271ec.js",
     "static/media/Inter.ttf": "/Iwantthat-blog/static/media/Inter.aadb65ac45347ff46699.ttf",
     "static/media/MontserratAlternates-Regular.otf": "/Iwantthat-blog/static/media/MontserratAlternates-Regular.a5a4219b37b4e2270a3c.otf",
     "index.html": "/Iwantthat-blog/index.html",
@@ -11,10 +11,10 @@
     "static/media/Hamburger-Menu.svg": "/Iwantthat-blog/static/media/Hamburger-Menu.b110d045eec97881a32c111f74b20d15.svg",
     "static/media/About.svg": "/Iwantthat-blog/static/media/About.5df3374d0f145ceb6f10ee1ddb78e41e.svg",
     "main.85873945.css.map": "/Iwantthat-blog/static/css/main.85873945.css.map",
-    "main.2a8405cb.js.map": "/Iwantthat-blog/static/js/main.2a8405cb.js.map"
+    "main.ee1271ec.js.map": "/Iwantthat-blog/static/js/main.ee1271ec.js.map"
   },
   "entrypoints": [
     "static/css/main.85873945.css",
-    "static/js/main.2a8405cb.js"
+    "static/js/main.ee1271ec.js"
   ]
 }
